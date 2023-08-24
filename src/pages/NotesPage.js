@@ -9,7 +9,11 @@ const NotesPage = () => {
   let [notes, setNotes] = useState([]);
 
   useEffect(() => {
+<<<<<<< HEAD
     getNotes()
+=======
+    // getNotes()
+>>>>>>> e8af2b6ec6cf580d871ed370d4423d0cab1400a0
     getNotesChannel()
   }, [])
 

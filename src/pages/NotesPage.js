@@ -9,7 +9,7 @@ const NotesPage = () => {
   let [notes, setNotes] = useState([]);
 
   useEffect(() => {
-    // getNotes()
+    getNotes()
     getNotesChannel()
   }, [])
 
